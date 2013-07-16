@@ -1,0 +1,137 @@
+/* STYLES */
+
+nav {
+	padding: 2px 7px;
+	position: absolute;
+	width: 100%;
+
+}
+
+nav li {
+	display: inline-block;
+	}
+
+.topnav {
+	background: #2D2D2D;
+	top: 0;
+
+}
+.topnav li {
+	float: left;
+}
+
+.topnav li a {
+	color: #bbb;
+	text-decoration: none;
+	display: block;
+	font: 13px/27px Arial,sans-serif;
+	font-weight: bold;
+	line-height: 30px;
+	padding: 0 9px;
+
+}
+
+.topnav li a:hover {
+color: #fff;
+
+}
+
+.selected {
+	color: #fff;
+
+}
+
+.triangle {
+position: absolute;
+right: 560px;
+top: 13px;
+border-left: 3px solid transparent;
+border-right: 3px solid transparent;
+border-top: 3px solid #bbb;
+}
+
+.logo {
+	display: block;
+	width: 275px;
+	margin: 193px auto 23px;
+}
+
+.signin {
+	padding: 6px 15px;
+position: absolute;
+top: 50px;
+right: 43px;
+background: #D64A38;
+color: #fff;
+font: 11px Arial, sans-serif;
+font-weight: bold;
+border: 1px solid #D64A38;
+border-radius: 3px
+}
+
+.buttons {
+	width: 100%;
+	margin: 23px auto;
+	text-align: center;
+}
+
+.greybutton {
+padding: 7px 7px 8px 8px;
+margin: 0 6px;
+background: #f5f5f5;
+color: #565656;
+font-weight: bold;
+border: 1px solid #dcdcdc;
+cursor: default;
+font: bold 11px/27px Arial,sans-serif;
+}
+
+.search {
+	width: 575px;
+	margin: 0 auto;
+}
+
+.input {
+}
+
+.search .input input {
+	font-size: 14px;
+width: 99%;
+height: 25px;
+border: 1px solid #ddd;
+box-shadow: none;
+outline: 0;
+text-indent: 5px;
+}
+
+.bottomnav {
+	text-align: right;
+	bottom: 0;
+	border: 1px solid #e7e7e7;
+
+}
+.bottomnav li {
+}
+
+.bottomnav li a {
+	display: inline-block;
+	color: #555;
+	padding: 5px 10px 5px;
+
+}
+
+.bottomnav li a:hover {
+text-decoration: underline;
+
+}
+
+
+a {
+
+text-decoration: none;
+
+}
+
+
+
+
